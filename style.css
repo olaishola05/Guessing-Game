@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+div,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.container {
+  width: 70%;
+  height: 400px;
+  background-color: beige;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess-div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+}
