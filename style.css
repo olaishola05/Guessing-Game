@@ -24,9 +24,16 @@ h1 {
   margin-right: auto;
 }
 
-.guess-div {
+/* .guess-div {
   width: 50%;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
-  background-color: yellow;
+  /* background-color: yellow; */
+} */
+
+input {
+  width: 250px;
+  align-self: center;
+  margin: auto;
 }

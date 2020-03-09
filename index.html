@@ -11,9 +11,28 @@
 <body>
     <h1>Is game time</h1>
     <div class="container">
-        <div class="guess-div"><input type="text" placeholder="take a guess"></div>
-        <button type="submit">Submit Guess</button>
+        <div class="guess-div"><input id="getInput" type="text" placeholder="take a guess"></div>
+        <button id="getBttn" type="submit">Submit Guess</button>
     </div>
+
+
+
+
+
+    <script type="text/javascript">
+
+        document.getElementsById("getBttn").onclick = function () {
+            const getInput = document.getElementsById("getInput").value;
+
+            const randNum = Math.floor(Math.random() * (11 - 1)) + 1;
+            if (getInput == randNum) {
+                alert("Hooray, You guessed right");
+            } else {
+                alert("Maybe another guess");
+            }
+        }
+    </script>
 </body>
+
 
 </html>
