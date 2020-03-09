@@ -21,8 +21,8 @@
 
     <script type="text/javascript">
 
-        document.getElementsById("getBttn").onclick = function () {
-            const getInput = document.getElementsById("getInput").value;
+        document.getElementById("getBttn").onclick = function () {
+            const getInput = document.getElementById("getInput").value;
 
             const randNum = Math.floor(Math.random() * (11 - 1)) + 1;
             if (getInput == randNum) {
