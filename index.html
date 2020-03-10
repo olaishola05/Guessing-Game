@@ -9,29 +9,25 @@
 </head>
 
 <body>
-    <h1>Is game time</h1>
+    <h1>Welcome to the world of guessing</h1>
+    <p>Rule of the game:
+        <ol>
+            <li>You only have maximum of fiive guesses</li>
+            <li>You guess should be within the range of 1 to 10</li>
+        </ol>
+    </p>
     <div class="container">
-        <div class="guess-div"><input id="getInput" type="text" placeholder="take a guess"></div>
-        <button id="getBttn" type="submit">Submit Guess</button>
+        <div class="guess-div"><input id="getInput" autofocus type="text" placeholder="take a guess"></div>
+        <button id="getBttn" type="submit">Guess</button>
+        <h2 class="counter">count:</h2>
     </div>
 
 
 
 
 
-    <script type="text/javascript">
 
-        document.getElementById("getBttn").onclick = function () {
-            const getInput = document.getElementById("getInput").value;
-
-            const randNum = Math.floor(Math.random() * (11 - 1)) + 1;
-            if (getInput == randNum) {
-                alert("Hooray, You guessed right");
-            } else {
-                alert("Maybe another guess");
-            }
-        }
-    </script>
+    <script src="index.js"></script>
 </body>
 
 
