@@ -15,11 +15,11 @@ h1 {
   font-size: 2em;
   padding: 20px;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
-ol{
-    text-align: center;
+ul {
+  text-align: center;
 }
 
 .container {
@@ -30,16 +30,33 @@ ol{
   margin-right: auto;
 }
 
-/* .guess-div {
-  width: 50%;
+.guess-div {
+  width: 30%;
   height: 100px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   /* background-color: yellow; */
-} */
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
 
 input {
-  width: 250px;
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#getBttn {
+  width: 70px;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: teal;
+  color: aliceblue;
   align-self: center;
-  margin: auto;
 }
