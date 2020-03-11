@@ -36,14 +36,14 @@ ul {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
 }
 
-h2 {
+p {
   text-align: center;
   padding-top: 20px;
+  font-size: 1.5em;
 }
 
 input {
